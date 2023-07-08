@@ -5,6 +5,13 @@
   box-sizing: border-box;
   font-family: 'Open Sans', sans-serif;
 }
+.mt-130{
+  padding-top: 130px;
+
+}
+.pb-70{
+  padding-bottom: 70px;
+}
 /* Header Style */
 header{
   background-image: url('../images/header_bg.png');
@@ -87,3 +94,30 @@ nav{
   border-radius: 5px;
   cursor: pointer;
 }
+
+/* about area style */
+main{
+  max-width: 1140px;
+  margin: auto;
+}
+.about-container{
+  
+}
+.about-text{
+  text-align: center;
+  background-color: rgb(245, 229, 198);
+  padding: 130px;
+}
+.about-text p{}
+.title{
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+.about-info-container{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+.about-info{}
+.about-info p{}
+.about-info h4{}
