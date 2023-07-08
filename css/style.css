@@ -6,11 +6,21 @@
   font-family: 'Open Sans', sans-serif;
 }
 /* Header Style */
+header{
+  background-image: url('../images/header_bg.png');
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+nav{
+  background-image: url('../images/developer.png');
+  background-repeat: no-repeat;
+}
+
 .topbar{
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 20px 0;
+  padding: 45px 0;
 }
 .logo{}
 .logo h1{
@@ -41,17 +51,39 @@
   font-weight: 700;
   font-size: 20px;
   border-radius: 5px;
+  cursor: pointer;
 }
 /* banner style */
 .banner{
   display: flex;
   align-items: center;
+  justify-content: space-around;
+  padding: 30px 30px 0px 150px;
+  
 }
 .banner-text{}
-.banner-text h3{}
-.banner-text p{}
-.banner-text h1{}
+.banner-text h3{
+  font-size: 30px;
+  font-weight: 600;
+  color: #474747;
+}
+.banner-text p{
+  margin-bottom: 20px;
+}
+.banner-text h1{
+  font-size: 50px;
+  margin-bottom: 20px;
+}
 .banner-img{}
 .banner-img img{
   width: 500px;
+}
+.contact{
+  color: #111;
+  background-color: #fff;
+  padding: 15px 35px;
+  margin-left: 20px;
+  font-size: 20px;
+  border-radius: 5px;
+  cursor: pointer;
 }
