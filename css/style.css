@@ -260,6 +260,16 @@ main{
     padding: 10px;
     
 }
+.about-text {
+    
+     padding: 20px; 
+}
+.about-info-container {
+      flex-direction: column;
+}
+.about-info {
+    margin-bottom: 20px;
+}
 
   
 }
@@ -287,5 +297,8 @@ main{
  
   .single-footer {
     width: 100%;
+}
+.about-text {
+      padding: 30px;
 }
 }
