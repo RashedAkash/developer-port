@@ -232,3 +232,60 @@ main{
   width: 100%;
 }
 .footer-form form input{}
+
+/* responsive design */
+.hide{
+  display: none;
+}
+@media screen and (max-width:576px) {
+  .full-skill {
+      flex-direction: column;
+}
+.skill-title p {
+    width: 90%;
+  }
+   .resume-container {
+      padding-left: 10px;
+    flex-direction: column;
+}
+.footer-widget {
+    gap: 40px;
+     padding: 20px; 
+    flex-direction: column;
+}
+.single-footer {
+    width: 100%;
+}
+.footer-form form input, textarea {
+    padding: 10px;
+    
+}
+
+  
+}
+
+
+
+
+
+@media screen and (min-width:576px) and (max-width:992px) {
+  .full-skill {
+      flex-wrap: wrap;
+}
+.skill-title p {
+    width: 90%;
+  }
+  .resume-container {
+      flex-direction: column;
+    padding: 0 20px;
+}
+.footer-widget {
+        gap: 50px;
+      padding: 50px;
+    flex-direction: column;
+}
+ 
+  .single-footer {
+    width: 100%;
+}
+}
